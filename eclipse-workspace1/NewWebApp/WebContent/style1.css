@@ -1,0 +1,326 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html { height: 100% }
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,35,40,1) 100%), url('http://i.minus.com/io97fW9I0NqJq.png');
+		font-family: "Poppins", sans-serif;
+		background: ##ffcba4; }
+.container{
+	position:absolute;
+	margin:-10px;
+}
+.container2{
+	position:relative;
+	margin: 30px 30px 30px 30px;
+}
+.form3 .heading1 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form4 .heading5 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form5 .heading6 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form2 .heading2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form1 .heading3 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form1 .heading4 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 10px 10px 10px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.header {
+	left: 200px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin:0px;
+  /*padding: 20px 10px;*/
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: df1f1f1;
+  color: black;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.form2 {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 1200px;
+  right:350px;
+  margin:20px 20px 20px 100px;
+  width: 298px;
+  display:inline-block;
+}
+.form1 {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 1200px;
+  float: left;
+  margin:20px 20px 20px 100px;
+  width: 298px;
+  display:inline-block;
+  position:relative;
+}
+.form3 {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 1200px;
+  float: left;
+  margin: 20px 20px 20px 100px;
+  width: 298px;
+  display:inline-block;
+   position:relative;
+}
+.form4 {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 250px;
+  float: left;
+  margin: 20px 20px 20px 300px;;
+  width: 298px;
+  display:inline-block;
+   position:relative;
+}
+.form5 {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 250px;
+  float: left;
+  margin: 20px 20px 20px 100px;;
+  width: 298px;
+  display:inline-block;
+   position:relative;
+}
+.form2 .h {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 8px 3px 37px; 
+  /*padding-left: 37px;*/
+  color: #000000;
+}
+.form3 .h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 8px 3px 37px; 
+  paddig-left: 37px;
+  color: #000000;
+}
+.form4 .h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 8px 3px 37px; 
+  paddig-left: 37px;
+  color: #000000;
+}
+.form5 .h4 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  display:inline-block;
+  margin: 10px 8px 3px 37px; 
+  paddig-left: 37px;
+  color: #000000;
+}
+
+input[type="password"], input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 0 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+.show-password {
+  display: block;
+  height: 16px;
+  margin: 26px 0 0 28px;
+  width: 87px;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 16px;
+  opacity: 0;
+  position: relative;
+  width: 64px;
+}
+input[type="checkbox"]:checked {
+  left: 29px;
+  width: 58px;
+}
+.toggle {
+  background: url(http://i.minus.com/ibitS19pe8PVX6.png) no-repeat;
+  display: block;
+  height: 16px;
+  margin-top: -20px;
+  width: 87px;
+  z-index: -1;
+}
+input[type="checkbox"]:checked + .toggle { background-position: 0 -16px }
+.forgot {
+  color: #7f7f7f;
+  display: inline-block;
+  float: right;
+  font: 12px/1 sans-serif;
+  left: -19px;
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+  transition: color .4s;
+}
+.forgot:hover { color: #3b3b3b }
+input[type="submit"] {
+  width:240px;
+  height:35px;
+  display:block;
+  font-family:Arial, "Helvetica", sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  color:#00000;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-align:center;
+  text-shadow:1px 1px 0px #ffcba4;
+  padding-top:6px;
+  margin: 29px 0 0 29px;
+  position:relative;
+  cursor:pointer;
+  border: none;  
+  background-color: #ffcba4;
+  background-image: linear-gradient(top,#ffcba4,#3111);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  box-shadow: inset 0px 1px 0px #ffcba4, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+
+.shadow {
+  background: #000;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 0 20px 10px #000;
+  height: 12px;
+  margin: 30px auto;
+  opacity: 0.2;
+  width: 270px;
+}
+
+
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
